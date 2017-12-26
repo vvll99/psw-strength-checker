@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>PSC</title>
+    <link rel="stylesheet" type="text/css" href="css/password.css">
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+</head>
+
+<body>
+    
+    <h1 >Password strenght checker</h1>
+    <main>
+    <div>
+        <label for="email"><b>e-mail:</b></label>
+        <input type="text" id="email" />
+    </div>
+    <br>
+    <div>
+        <lable for="password"><b>Password:</b></lable>
+        <input type="text" id="password" /> 
+        <label for="password" id="good">&nbsp</label>
+        
+    </div>
+    <br>
+    <table>
+        <tr>
+            <td class="invalid" id="lower"></td>
+            <td>a minimum of 1 lower case letter <b>[a-z]</b></td>
+        </tr>
+        <tr>
+            <td class="invalid" id="upper"></td>
+            <td>a minimum of 1 upper case letter <b>[A-Z]</b></td>
+        </tr>
+        <tr>
+            <td class="invalid" id="numeric"></td>
+            <td>a minimum of 1 numeric character <b>[0-9]</b> </td>
+        </tr>
+        <tr>
+            <td class="invalid" id="special"></td>
+            <td>a minimum of 1 special character: <b>~`!@#$%^&*()-_+={}[]|\;:"
+                &#x0003C&#x0003E,./?</b></td>
+        </tr>
+        <tr>
+            <td class="invalid" id="eight"></td>
+            <td>a minimum of 8 characters</td>
+        </tr>
+    </table>
+        </main>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="js/password.js"></script>
+</body>
+
+</html>
